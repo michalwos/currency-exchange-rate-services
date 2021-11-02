@@ -10,7 +10,12 @@
 	<description>Demo project for Spring Boot</description>
 
 	<modules>
+		<module>currency-exchange-rate-common</module>
 		<module>currency-exchange-rate-config-server</module>
 		<module>fc-import-service</module>
+		<module>current-rate-service</module>
+		<module>rate-alert-generation-service</module>
+		<module>rate-alert-service</module>
+		<module>demo-alert-setup-service</module>
 	</modules>
 </project>
